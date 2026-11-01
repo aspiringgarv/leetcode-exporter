@@ -57,7 +57,7 @@ Files are numbered per problem, oldest to newest, with the accepted one last. `O
 ## Install
 
 ### Firefox
-Install from **Firefox Add-ons** (link on the [project page](https://aspiringgarv.github.io/leetcode-exporter/)).
+Install from **[Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/export-for-leetcode/)**.
 
 ### Chrome / Edge / Brave
 1. Download `leetcode-exporter-chrome-v*.zip` from the [latest release](https://github.com/aspiringgarv/leetcode-exporter/releases/latest) and unzip it.

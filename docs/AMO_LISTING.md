@@ -4,7 +4,7 @@
 
 **Name:** Submission Exporter for LeetCode
 
-**Add-on URL slug:** leetcode-submission-exporter
+**Live listing:** https://addons.mozilla.org/en-US/firefox/addon/export-for-leetcode/
 
 **Summary (under 250 characters):**
 Your LeetCode history is yours. Export every solution you've written, all submissions or just the accepted ones, as a tidy ZIP in one click. Runs in your browser and sends nothing anywhere.
