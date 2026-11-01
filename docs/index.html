@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Submission Exporter for LeetCode</title>
+<meta name="description" content="Export your own LeetCode submissions as a ZIP: all, accepted only, or latest accepted. Runs in your browser.">
+<style>
+  :root{--bg:#fff;--fg:#1a1a1a;--muted:#666;--card:#f6f6f6;--accent:#ffa116}
+  @media (prefers-color-scheme:dark){:root{--bg:#1a1a1a;--fg:#eee;--muted:#aaa;--card:#262626}}
+  *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+  main{max-width:680px;margin:0 auto;padding:48px 16px} h1{font-size:2rem;margin:0 0 8px} .sub{color:var(--muted);margin:0 0 28px}
+  .card{background:var(--card);border-radius:12px;padding:18px 20px;margin:16px 0} h2{font-size:1.1rem;margin:0 0 8px}
+  a.btn{display:inline-block;background:var(--accent);color:#1a1a1a;text-decoration:none;font-weight:600;padding:10px 16px;border-radius:8px;margin:4px 8px 4px 0}
+  code{background:var(--card);padding:1px 6px;border-radius:4px} footer{color:var(--muted);font-size:.85rem;margin-top:32px}
+</style>
+</head>
+<body>
+<main>
+  <h1>Submission Exporter for LeetCode</h1>
+  <p class="sub">Back up your own LeetCode code as a ZIP, in your browser. No cookie copying, no server.</p>
+
+  <div class="card">
+    <h2>Pick what to export</h2>
+    <ul>
+      <li><b>All submissions</b>: wrong attempts too, oldest to newest</li>
+      <li><b>Accepted only</b>: every accepted submission</li>
+      <li><b>Latest accepted per problem</b>: one file per solved problem</li>
+    </ul>
+    <p>You also get an <code>ORDER.csv</code> that lists every submission in the order you made it.</p>
+  </div>
+
+  <div class="card">
+    <h2>Install</h2>
+    <a class="btn" href="https://addons.mozilla.org/">Firefox Add-ons</a>
+    <a class="btn" href="https://github.com/aspiringgarv/leetcode-exporter/releases/latest">Chrome / Edge (GitHub)</a>
+    <p>Chrome and Edge: download <code>chrome.zip</code>, unzip, then <code>chrome://extensions</code> &rarr; Developer mode &rarr; Load unpacked.</p>
+  </div>
+
+  <div class="card">
+    <h2>Private by design</h2>
+    <p>It runs only on leetcode.com in your own logged-in tab and builds the ZIP on your device. Nothing is uploaded.
+       <a href="privacy.html">Read the privacy policy</a>.</p>
+  </div>
+
+  <footer>Not affiliated with or endorsed by LeetCode. <a href="https://github.com/aspiringgarv/leetcode-exporter">Source on GitHub</a></footer>
+</main>
+</body>
+</html>
